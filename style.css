@@ -1,8 +1,8 @@
 body {
-    background: hsl(301, 100%, 77%);
-    color: rgb(45, 45, 45);
+    background: #f85ef5;
+    color: s8i#2d2d2d;
     padding: 10px;
-    font-family: arial;
+    font-family:fantasy;
 }
 #all-contents {
   max-width: 800px;
@@ -11,7 +11,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: hsla(343, 93%, 52%, 0.792);
+    background: hwb(343 7% 4% / 0.792);
    margin: 0 auto;
    margin-bottom: 20px;
     display: flex;
@@ -21,7 +21,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: #ffa7d760;
+    color: hwb(327 59% 2% / 0.777);
     flex: 1;
     mar ;
 }
@@ -31,12 +31,12 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: hwb(0 0% 100% / 0.475);
+    color: #171414d5;
 }
 
 /* main container area beneath menu */
 main {
-    background: #ff9ec6;
+    background: #f89dc3;
     display: flex;
 }
 .sidebar {
@@ -61,7 +61,7 @@ h2, h3 {
 }
          /* portfolio styles */
          .content h1 {
-            color: black;
+            color: #322f2f;
         }
 
         #portfolio {
@@ -70,14 +70,14 @@ h2, h3 {
         }
 
         #portfolio li {
-            background: #fff;
+            background: #ff70f8;
             padding: 10px;
             border-radius: 10px;
             margin-bottom: 10px;
         }
 
         #portfolio li:hover {
-            background: #eee;
+            background: #f75df7;
         }
 
         #portfolio a {
@@ -93,14 +93,17 @@ h2, h3 {
 
             h1 {
               font-size: 44px;
+              font-family: cursive;
             }
 
             h2 {
               font-size: 42px;
+              font-family: cursive;
             }
 
             h3 {
               font-size: 36px;
+              font-family: cursive;
             }
 
             #all-contents {
@@ -110,6 +113,7 @@ h2, h3 {
 
             a {
               font-size: 42px;
+              font-family: Georgia, 'Times New Roman', Times, serif;
             }
 
             .sidebar {
@@ -125,6 +129,7 @@ h2, h3 {
             p,
             li {
               font-size: 24px;
+              font-family: Georgia, 'Times New Roman', Times, serif;
             }
 
             .content {
