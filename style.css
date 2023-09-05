@@ -1,5 +1,5 @@
 body {
-    background: rgb(125, 198, 205);
+    background: hsl(301, 100%, 77%);
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: arial;
@@ -11,33 +11,32 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(239, 80, 41);
+    background: hsla(343, 93%, 52%, 0.792);
    margin: 0 auto;
+   margin-bottom: 20px;
     display: flex;
     padding: 10px;
+    border-radius: 50px;
 }
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: #ffa7d760;
     flex: 1;
-    margin: 0;
-}
-#nav-ul {
-    list-style-image: none;
+    mar ;
 }
 .nav-li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 15px;
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: hwb(0 0% 100% / 0.475);
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: #ff9ec6;
     display: flex;
 }
 .sidebar {
