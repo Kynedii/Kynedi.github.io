@@ -55,6 +55,7 @@ $(function () {
     createPlatform(1375, 600, 90, 10)
     createPlatform(150, 630, 70, 10)
     createPlatform(1200,400, 70, 10)
+    createPlatform(100, 700, 60, 10)
 
 
 
@@ -70,7 +71,7 @@ $(function () {
     createCollectable('kennedi', 700, 520)
     createCollectable('database', 1200, 420)
     createCollectable('max', 1375, 630)
-
+    createCollectable('steve',300, 600)
 
 
     // TODO 3
@@ -80,6 +81,7 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
     // A step
     createCannon("right", 300, 6, 10, 10)
+    createCannon("right", 200, 32, 10, 10)
 
 
 
