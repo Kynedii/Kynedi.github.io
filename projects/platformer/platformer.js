@@ -82,6 +82,7 @@ $(function () {
     // A step
     createCannon("right", 350, 200, 10, 10)
     createCannon("right", 200, 32, 10, 10)
+    createCannon("right", 400, 200, 10, 10)
     
 
 
