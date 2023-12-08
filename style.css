@@ -53,20 +53,22 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(228, 93, 196) ridge;
     padding: 8px;
+    border-style: dashed;
+    border-radius: 50px;
 }
 h2, h3 {
     margin: 0px;
 }
          /* portfolio styles */
          .content h1 {
-            color: #322f2f;
+            color: #0cb4b7;
         }
 
         #portfolio {
-            list-style-type: none;
-            padding-left: 0;
+            list-style-type: upper-roman;
+            padding-left: 100px;
         }
 
         #portfolio li {
@@ -82,7 +84,7 @@ h2, h3 {
 
         #portfolio a {
             text-decoration: none;
-            color: #454545;
+            color: #f81881;
         }/* responsive web design */
         @media screen and (min-width: 120px) and (max-width: 1080px) {
             main {
